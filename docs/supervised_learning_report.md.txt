@@ -1,0 +1,146 @@
+# Supervised Learning Algorithms Report
+
+## 1. Introduction
+
+Supervised learning is a type of machine learning where a model is trained using labeled data. The objective is to learn the relationship between input features and the target variable so that it can make predictions on new data.
+
+This project implements three supervised learning algorithms using Scikit-learn:
+
+- Linear Regression
+- Logistic Regression
+- Decision Tree Classifier
+
+---
+
+# 2. Linear Regression
+
+## Theory
+
+Linear Regression is a regression algorithm used to predict continuous numerical values. It models the relationship between independent variables (features) and a dependent variable (target) using a linear equation.
+
+### Common Applications
+
+- House Price Prediction
+- Salary Prediction
+- Sales Forecasting
+- Stock Trend Estimation
+
+### Evaluation Metrics
+
+- Mean Squared Error (MSE)
+- R² Score
+
+### Results
+
+Dataset Used:
+- Diabetes Dataset
+
+Performance:
+
+- Mean Squared Error: 2900.19
+- R² Score: 0.45
+
+---
+
+# 3. Logistic Regression
+
+## Theory
+
+Logistic Regression is a classification algorithm used for predicting categorical outcomes. It estimates the probability that an input belongs to a particular class.
+
+### Common Applications
+
+- Disease Detection
+- Email Spam Detection
+- Customer Churn Prediction
+- Fraud Detection
+
+### Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+
+### Results
+
+Dataset Used:
+- Breast Cancer Dataset
+
+Performance:
+
+- Accuracy: 95.61%
+- Precision: 94.59%
+- Recall: 98.59%
+
+---
+
+# 4. Decision Tree
+
+## Theory
+
+Decision Trees classify data by creating a tree of decision rules. Each internal node represents a feature, each branch represents a decision, and each leaf node represents the final prediction.
+
+### Common Applications
+
+- Medical Diagnosis
+- Loan Approval
+- Customer Segmentation
+- Risk Analysis
+
+### Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- Confusion Matrix
+
+### Results
+
+Dataset Used:
+- Breast Cancer Dataset
+
+Performance:
+
+- Accuracy: 94.74%
+- Precision: 95.77%
+- Recall: 95.77%
+
+Confusion Matrix
+
+40 3
+
+3 68
+
+---
+
+# 5. Algorithm Comparison
+
+| Algorithm | Type | Performance |
+|-----------|------|-------------|
+| Linear Regression | Regression | R² = 0.45 |
+| Logistic Regression | Classification | Accuracy = 95.61% |
+| Decision Tree | Classification | Accuracy = 94.74% |
+
+---
+
+# 6. Conclusion
+
+This project successfully demonstrates the implementation of three supervised learning algorithms using Scikit-learn.
+
+Among the classification models, Logistic Regression achieved the highest accuracy of approximately 95.61%, while Decision Tree also performed well with an accuracy of approximately 94.74%.
+
+Linear Regression achieved an R² score of approximately 0.45 on the Diabetes dataset, providing a reasonable baseline for regression tasks.
+
+The project illustrates the complete supervised learning workflow, including data loading, preprocessing, model training, prediction, and evaluation.
+
+---
+
+# 7. Future Improvements
+
+- Hyperparameter Tuning
+- Cross Validation
+- Random Forest
+- Gradient Boosting
+- Feature Engineering
+- Model Optimization
